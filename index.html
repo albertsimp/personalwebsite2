@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+	<!--Navigation Bar-->
+    <nav id="desktop-nav">
+		<div class="logo">Jov</div>
+		<div>
+		<ul class="nav-links">
+			<li><a href="#personal_info" >Home</a></li>
+			<li><a href="#skills" >Skills</a></li>
+			<li><a href="#contact" >Contact Us</a></li>
+			<li><a href="#projects" >Recent Projects</a></li>
+		</ul>
+		</div>
+	</nav>
+	<nav id="hamburger-nav">
+		<div class="logo">Jov</div>
+		<div class="hambuerger-menu">
+			<div class="hamburger-icon" onclick="toggleMenu()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+		<div class="menu-links">
+			<li><a href="#personal_info" onclick="toggleMenu()">Home</a></li>
+			<li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+			<li><a href="#contact" onclick="toggleMenu()">Contact Us</a></li>
+			<li><a href="#projects" onclick="toggleMenu()">Recent Projects</a></li>
+		</div>
+		</div>
+	</nav>
+	<!--Personal Information-->
+	<section id="home">
+		<h1 class="heading">Hi, I am</h1>
+		<h1 class="heading">John Albert H. Rañada</h1>
+		<br><br>
+		<p>and this is My Portfolio</p>
+	</section>
+	<section id="personal_info">
+		<h1 class="heading">Personal Information</h1>
+		<div class="personal">	
+				<img src="img/img1.jpg" alt="My Pic">
+				<div class="name">
+					<h2>I'm John Albert Rañada</h2>
+					<p>I am a 20-year-old inhabitant of Nagcarlan, Laguna, and the only child of Albert and Florencia Rañada. While academic success is not my strongest suit, I am constantly striving to excel for the sake of my future.
+						In my free time, I prefer playing mobile games like Mobile Legends, Call of Duty, and Clash of Clans. However, I recognize the need of balance and try to increase my productivity in order to benefit both my personal development and the well-being of others around me.
+						Like many people my age, I have big aspirations and am determined to follow them severely. My overarching goal is to carve out a successful profession in information technology, which I am actively pursuing through diligent study and unflinching dedication.
+						After finishing my studies, I intend to invest in a high-quality personal computer to help me begin my professional career. By securing secure jobs and creating income, I hope to launch entrepreneurial projects to help and elevate my parents.
+						In addition to practical goals such as house and car ownership, my ultimate goal is to live a fulfilling life. As I gain financial security and professional success, I hope to build a life with the woman I love, creating an enjoyable and successful family unit.
+						I am convinced that constant motivation and perseverance are critical aspects in achieving personal and community success.
+					</p>
+				</div>			
+		</div>
+	</section><br>
+	<!--Skills Section-->
+	<section id="skills">
+		<h1 class="heading">Skills</h1>
+		<div class="picture">
+			<a target="_blank" href="img/img2.jpg">
+			<img src="img/img2.jpg" alt=""></a>
+
+			<a target="_blank" href="img/img3.jpg">
+			<img src="img/img3.jpg" alt=""></a>
+
+			<a target="_blank" href="img/img4.jpg">
+			<img src="img/img4.jpg" alt=""></a>
+		</div>
+	</section><br>
+	<!--Contact Section-->
+	<section id="contact">
+	<div>
+		<h1 class="heading">Contact Us</h1>
+        <h2>Get in Touch</h2>
+        <p>You can get in touch with us! Please use any of the following options to get in contact with us.</p>
+        <div class="contact-methods">
+            <div class="contact-method">
+                <i class="marker-alt"></i>
+                <p id="demo">Purok 6<br>Sitio Bigaa, Nagcarlan Laguna</p>
+            </div>
+            <div class="contact-method">
+                <i class="phone"></i>
+                <p><a href="tel:+15551234567">09493307607</a></p>
+            </div>
+            <div class="contact-method">
+                <i class="envelope"></i>
+                <p><a href="mailto:info@example.com">ranadajohnalbert4@gmail.com</a></p>
+            </div>
+        </div>
+    </div>
+	</section><br>
+	<!--Recent Project Section-->
+		<section id="projects">
+			<div class="container">
+			  <h1 class="heading">Recent Projects</h1>
+			  <div class="row">
+				<div>
+				  <div class="card project-card">
+					<img src="img/img5.png" class="card-img-top" alt="Project 1">
+					<div class="card-body">
+					  <h5 class="card-title">Virtual Tour</h5>
+					  <p class="card-text">Virtual tours have become a game-changer, offering individuals the opportunity to explore destinations worldwide from the comfort of their homes. Whether it's iconic landmarks, cultural sites, or potential real estate properties, virtual tours provide an immersive experience accessible to anyone with an internet connection. While they offer convenience and accessibility, virtual tours cannot fully replicate the sensory richness of physical travel. Despite this limitation, they serve as invaluable tools in education, real estate, and leisure, shaping the way we explore and interact with the world in the digital age.</p>
+					  <a href="https://millerapunzalanranada.netlify.app/" target="_blank">View Project</a>
+					</div>
+				  </div>
+				</div>
+	</section>
+	<section id="projects">
+		<div class="container">
+			  <h1 class="heading">Recent Projects</h1>
+			  <div class="row">
+				<div>
+				  <div class="card project-card">
+					<img src="img/img6.png" class="card-img-top" alt="Project 1">
+					<div class="card-body">
+					  <h5 class="card-title">CIT Building Virtual Tour</h5>
+					  <p class="card-text">This project was created to showcase the beauty of the CIT building at LSPU-SPCC and to provide you with a virtual tour of its facilities. We aim to highlight the architectural features and functionality of the building through this immersive experience.</p>
+					  <a href="https://millerapunzalanranada2.netlify.app/" target="_blank">View Project</a>
+					</div>
+				  </div>
+		</div>
+	</section>
+	<script src="script.js"></script>
+</body>
+</html>
